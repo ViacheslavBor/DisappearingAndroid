@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>android</title>
+	<meta name="description" content="#">
+        <link rel="stylesheet" href="disappearingandriod1.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script type="text/javascript">
+			$(document).ready(function(){
+				$("img").click(function(){
+					$(this).addClass('cl');
+				});
+				$("button").click(function(){
+					$("img").removeClass('cl');
+				});
+			});
+		</script>
+</head>
+<body>
+	<div id="wrapper">
+		<img src="android.jpg">
+		<img src="android.jpg">
+		<img src="android.jpg">
+		<img src="android.jpg">
+		<img src="android.jpg">
+		<img src="android.jpg">
+		<img src="android.jpg">
+		<img src="android.jpg">
+		<div class="cl"></div>
+		<button>Restore</button>
+	</div>
+</body>
+</html>

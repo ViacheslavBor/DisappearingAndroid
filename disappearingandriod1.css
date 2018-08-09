@@ -1,0 +1,26 @@
+#wrapper {
+	width: 732px;
+	height: 500px;
+	background-color: white;
+}
+#wrapper > img {
+	width: 180px;
+    height: 180px;
+    display: inline-block;
+}
+.cl {
+	width: 180px;
+	height: 180px;
+	visibility: hidden;
+}
+button {
+	height: 84px;
+    width: 400px;
+    margin-left: 170px;
+    border: none;
+    color: white;
+    background-color: #A5CA3A;
+    border-radius: 15px;
+    font-family: arial;
+    font-size: 33px;
+}
